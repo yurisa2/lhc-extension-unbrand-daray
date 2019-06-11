@@ -5,4 +5,4 @@
  * https://livehelperchat.com/commercial-support-13c.html
  * 
  * */?>
-<meta name="copyright" content="Remigijus Kiminas, livehelperchat.com">
+<meta name="copyright" content="Daray Web, daray.com.br">
