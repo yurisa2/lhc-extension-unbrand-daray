@@ -20,7 +20,7 @@ if(isset($_SESSION[lhc_ezcAuth_id])) {
   if($demo) 
   {
     echo "<div class=\"col-sm\">";
-    echo "<a class=\"btn btn-danger\" href = # target=_blank> Todas as conversas e mensages são apagadas  após 5 minutos</a>";
+    echo "<a class=\"btn btn-danger\" href = # target=_blank> No modo <b>DEMO</b> todas as conversas e mensages são apagadas  após 5 minutos</a>";
     echo "</div>";
   }
 
