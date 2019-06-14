@@ -15,6 +15,14 @@ if(isset($_SESSION[lhc_ezcAuth_id])) {
 
   $status = json_decode(file_get_contents($ws_url_base.'/wapp-LHC-Bridge/wapp_status.php'));
   file_get_contents($ws_url_base.'/wapp-LHC-Bridge/demo_hook.php');
+  
+  
+  if($demo) 
+  {
+    echo "<div class=\"col-sm\">";
+    echo "<a class=\"btn btn-danger\" href = # target=_blank> Todas as conversas e mensages são apagadas  após 5 minutos</a>";
+    echo "</div>";
+  }
 
 echo "<div class=\"col-sm\">";
 
@@ -42,7 +50,7 @@ echo "
 
 
 } else {
-  echo "<a href=# class=\"btn btn-warning\"> USUARIO: demo | SENHA: demo</a>";
+if($demo)  echo "<a href=# class=\"btn btn-warning\"> USUARIO: demo | SENHA: demo</a>";
   
 }
   
